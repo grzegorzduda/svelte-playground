@@ -3,10 +3,17 @@
   "baseBranches": ["main"],
   "branchPrefix": "renovate/",
   "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "platform": "github",
+  "repositories": [
+    "grzegorzduda/svelte-playground"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "addLabels": ["security"]
+  }
 }

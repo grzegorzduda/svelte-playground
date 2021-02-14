@@ -24,6 +24,7 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
+    "elizabot": "^0.0.3",
     "sirv-cli": "^1.0.0"
   }
 }

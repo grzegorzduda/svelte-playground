@@ -1,10 +1,7 @@
-import App from './App.svelte';
+import { Slots } from './Composition';
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
+const app = new Slots({
+  target: document.body,
 });
 
 export default app;
